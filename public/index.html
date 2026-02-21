@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ocean Survival MMO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="menu">
+  <h1>🐟 Ocean Survival MMO</h1>
+  <input id="nameInput" placeholder="Enter name">
+  <button id="spawnBtn">Spawn</button>
+</div>
+
+<div id="deathScreen">
+  <h2>You Died 💀</h2>
+  <button id="respawnBtn">Respawn</button>
+</div>
+
+<div id="hud">
+  <div id="hpBar"></div>
+  <div id="xpBar"></div>
+  <div id="oxygenBar"></div>
+  <div id="leaderboard"></div>
+</div>
+
+<canvas id="game"></canvas>
+
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
