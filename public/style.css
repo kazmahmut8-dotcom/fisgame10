@@ -1,0 +1,29 @@
+body{margin:0;overflow:hidden;background:#001f2f;color:white;font-family:Arial;}
+canvas{display:block;}
+
+#menu,#deathScreen{
+  position:absolute;width:100%;height:100%;
+  background:rgba(0,0,0,0.8);
+  text-align:center;padding-top:200px;
+}
+
+#deathScreen{display:none;}
+
+#hud{
+  position:absolute;top:10px;left:50%;
+  transform:translateX(-50%);
+  width:300px;
+}
+
+#hpBar{height:15px;background:red;margin-bottom:5px;}
+#xpBar{height:15px;background:lime;margin-bottom:5px;}
+#oxygenBar{height:15px;background:cyan;margin-bottom:5px;}
+
+#leaderboard{
+  position:absolute;
+  right:20px;
+  top:20px;
+  background:rgba(0,0,0,0.6);
+  padding:10px;
+  font-size:14px;
+}
